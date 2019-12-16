@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dam.androidjavier_juan_uceda.u3t5menusactivity.MainActivity">
+    <item
+        android:id="@+id/options_welcome"
+        android:icon="@android:drawable/ic_menu_week"
+        android:title="@string/options_welcome"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/option_about"
+        android:title="@string/option_about"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+
+    <item
+        android:id="@+id/option_options"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="@string/option_options"
+        app:showAsAction="ifRoom">
+
+
+        <menu>
+            <item
+                android:id="@+id/option_options_theme"
+                android:icon="@android:drawable/gallery_thumb"
+                android:title="@string/options_welcome"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/option_options_sound"
+                android:icon="@android:drawable/sym_call_outgoing"
+                android:title="@string/option_about"
+                app:showAsAction="ifRoom" />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/option_exit"
+        android:title="@string/option_exit" />
+</menu>

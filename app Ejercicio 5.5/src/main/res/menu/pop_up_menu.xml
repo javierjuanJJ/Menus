@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:menuCategory="secondary">
+        <item
+            android:id="@+id/pop_up_bold"
+            android:checkable="true"
+            android:checked="false"
+            android:title="@string/bold"
+            android:visible="true" />
+        <item
+            android:id="@+id/pop_up_italic"
+            android:checkable="true"
+            android:checkableBehavior="all"
+            android:enabled="true"
+            android:title="@string/italic"
+            android:visible="true" />
+    </group>
+
+    <group android:checkableBehavior="all"
+        >
+        <item
+            android:id="@+id/pop_up_22"
+            android:title="@string/_22_sp" />
+        <item
+            android:id="@+id/pop_up_26"
+            android:title="@string/_26_sp" />
+        <item
+            android:id="@+id/pop_up_30"
+            android:title="@string/_30_sp" />
+    </group>
+</menu>

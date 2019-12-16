@@ -1,0 +1,7 @@
+include ':app', ':Ejercicio 5.1', ':Ejercicio 5.2', ':Ejercicio 5.3', ':Ejercicio 5.4', ':Ejercicio 5.5'
+rootProject.name='U3T5MenusActivity'
+project(':Ejercicio 5.1').projectDir = new File('app Ejercicio 5.1')
+project(':Ejercicio 5.2').projectDir = new File('app Ejercicio 5.2')
+project(':Ejercicio 5.3').projectDir = new File('app Ejercicio 5.3')
+project(':Ejercicio 5.4').projectDir = new File('app Ejercicio 5.4')
+project(':Ejercicio 5.5').projectDir = new File('app Ejercicio 5.5')

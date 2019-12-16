@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dam.androidjavier_juan_uceda.u3t5menusactivity.MainActivity">
+    <item
+        android:id="@+id/options_welcome"
+        android:title="@string/options_welcome" />
+
+    <item
+        android:id="@+id/option_about"
+        android:title="@string/option_about"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+
+    <item
+        android:id="@+id/option_options"
+        android:title="@string/option_options" >
+
+
+        <menu>
+            <item
+                android:id="@+id/option_options_theme"
+                android:title="@string/options_welcome" />
+
+            <item
+                android:id="@+id/option_options_sound"
+                android:title="@string/option_about" />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/option_exit"
+        android:title="@string/option_exit" />
+</menu>
